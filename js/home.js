@@ -52,5 +52,5 @@ function displayitems() {
 // To log out from home
 buttonLogOut.addEventListener("click", function () {
   localStorage.removeItem("activeUser");
-  open("./index.html", "_self");
+  location.replace("./index.html");
 });
