@@ -1,0 +1,45 @@
+
+@font-face {
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+    font-family: TitilliumWeb;
+}
+
+
+:root{
+    --bg-main:rgb(36, 53, 63);
+}
+
+body{
+    background-color: var(--bg-main);
+    font-family: TitilliumWeb;
+
+}
+
+nav{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+
+nav .btn{
+    border-color: rgb(255, 193, 7);
+}
+
+nav .btn:hover{
+    background-color: rgb(255, 193, 7);
+}
+
+
+#HomeSection h3{
+
+    font-size: 30px;
+    color: rgb(23, 162, 184);
+}
+
+#HomeSection h2{
+    font-size: 40px;
+}
+
+img{
+    height: 300px;
+}
+
